@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title>
+        Tab 3
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Tab 3</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+    <ion-list>
+        <ion-item *ngFor="let item of elemento">
+          <ion-label>{{item.id}} - {{item.title}}</ion-label>
+          <ion-button [routerLink]="['/tabs/tab2/']">guardar</ion-button>
+        </ion-item>
+        
+      </ion-list>
+    
+    
+      
+  
+  
+  
+  
+  

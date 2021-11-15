@@ -1,0 +1,7 @@
+{
+  "name": "recuperatorioionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
